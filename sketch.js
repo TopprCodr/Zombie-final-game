@@ -142,7 +142,7 @@ zombie.collide(invisible_ground);
    //rules 
   if(player.isTouching(CoinsGroup)){
     player.velocityY=3;
-    score=score+200;
+    score=score+5;
     point.play();
     CoinsGroup.setVisibleEach(false);
   }
