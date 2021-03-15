@@ -249,7 +249,6 @@ HandGroup.destroyEach();
 score=0;
 zombie.x=150;
 ground.addImage(bg);
-player.visible=false;
 bgm.play();
 
 }
